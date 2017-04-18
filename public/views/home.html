@@ -1,0 +1,8 @@
+<h1>This is a list of devices</h1>
+<div> {{value}}</div>
+
+<div ng-repeat="device in devices">
+    <button ng-click='lookForEvents(device.deviceId)'>{{device.deviceId}} {{device.name}} </button>
+</div>
+
+<div ui-view=''> </div>

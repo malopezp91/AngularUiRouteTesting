@@ -1,0 +1,19 @@
+{
+  "name": "angular-ui-route",
+  "version": "1.0.0",
+  "description": "This app will help me to use ui-route",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui-route"
+  ],
+  "author": "malopezp.91",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "express": "^4.15.2"
+  }
+}
